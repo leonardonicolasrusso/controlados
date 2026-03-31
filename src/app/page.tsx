@@ -9,7 +9,7 @@ import type { Control, Modelo, Reemplazo, Usuario } from '@/lib/types'
 // HELPERS
 // ──────────────────────────────────────────────
 function imgPath(id: string) {
-  return `/img/${id}.png`
+  return `/img/${id}.webp`
 }
 
 function getControl(controles: Control[], id: string): Control | undefined {
